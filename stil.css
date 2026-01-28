@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: HeadingFont;
+  src: url(elenamiketa.ttf) format(truetype);
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: HeadingFont;
+   font-size: 100px; 
+ line-height: 75px;
+ width: 500px;
+ color:black;
+ background-color: LightCoral;
+ width: 450px; height: 160px;
+ padding: 20px;
+ border: 3px solid IndianRed; margin-left: auto; margin-right:auto;
+}
+
+@font-face {
+  font-family: BodyFont;
+  src: url(times.ttf) format(truetype);
+}
+
+ h2 {font-size: 40px; 
+ line-height:29px;margin-left: auto; margin-right:auto;
+ width: 530px;
+ color:black;
+ background-color: LightCoral; 
+ width: 450px; height: 70px;
+ padding: 10px;
+ border: 4px solid IndianRed; margin-left: auto; margin-right:auto;
+ }
+  h3 {font-size: 20px; 
+ line-height:29px;
+ width: 530px;
+ color:black;
+ background-color: LightCoral; 
+ width: 500px; height: 110px;
+ padding: 10px;
+ border: 4px solid IndianRed; margin-left: auto; margin-right:auto;
+ }
+   h4 {font-size: 20px; 
+ line-height:29px;
+ width: 530px;
+ color:black;
+ background-color: LightCoral; 
+ width: 900px; height: 180px;
+ padding: 10px;
+ border: 4px solid IndianRed; margin-left: auto; margin-right:auto;
+ }
+    h5 {font-size: 25px; 
+ line-height:29px;
+ width: 530px;
+ color:black;
+ background-color: LightCoral; 
+ width: 500px; height: 100px;
+ padding: 10px;
+ border: 4px solid IndianRed; 
+ }
+  h6 {font-size: 25px; 
+ line-height:29px;
+ width: 530px;
+ color:black;
+ background-color: LightCoral; 
+ width: 300px; height: 140px;
+ padding: 10px;
+ border: 4px solid IndianRed; 
+ }
+  h7 {font-size: 20px; 
+ line-height:100px;
+ width: 830px;
+ color:black;
+ background-color: LightCoral; 
+ width: 950px; height: 100px;
+ padding: 30px;
+ border: 4px solid IndianRed; 
+ }
+
+body {
+  background-color: Thistle;
+  font-family: BodyFont, sans-serif;
+}
